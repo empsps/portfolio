@@ -1,5 +1,11 @@
 @use 'variables';
 
+*,
+body {
+  font-family: 'Ubuntu';
+  color: variables.$white;
+}
+
 body {
   background-color: variables.$black;
 }
