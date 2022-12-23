@@ -3,9 +3,33 @@
 *,
 body {
   font-family: 'Ubuntu';
-  color: variables.$white;
+  color: variables.$text-1;
 }
 
 body {
   background-color: variables.$black;
+}
+
+.button {
+  height: 44px;
+  width: 124px;
+
+  cursor: pointer;
+
+  padding: auto;
+
+  border: none;
+  border-radius: 1.5rem;
+
+  font-weight: 500;
+
+  &.item-purple {
+    background-color: variables.$purple;
+    color: variables.$white;
+  }
+
+  &.item-orange {
+    background-color: variables.$orange;
+    color: variables.$text-3;
+  }
 }
