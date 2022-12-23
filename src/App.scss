@@ -1,1 +1,23 @@
+@use './css/variables';
 
+.root {
+  display: flex;
+  align-items: stretch;
+  height: 100vh;
+}
+
+aside {
+  display: flex;
+  flex: 5;
+  flex-direction: column;
+  justify-content: center;
+  background-color: variables.$black-2;
+}
+
+main {
+  display: flex;
+  flex: 8;
+  align-items: center;
+  justify-content: center;
+  background-color: variables.$black;
+}

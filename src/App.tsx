@@ -5,9 +5,8 @@ import { TechStack } from './components/TechStack/TechStack';
 export const App = () => {
   return (
     <div className='root'>
-      <main>
-        <TechStack />
-      </main>
+      <aside></aside>
+      <main></main>
     </div>
   );
 };
