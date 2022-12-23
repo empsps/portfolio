@@ -8,7 +8,7 @@ type LogoType = {
 };
 
 export const Logo = ({ logo, color }: LogoType) => {
-  const logoColor = color === 'purple' ? '#745ba7' : '#ffc663';
+  const logoColor = color === 'purple' ? '#6a3fc0' : '#e9af4c';
   switch (logo) {
     case 'react':
       return <ReactLogo fill={logoColor} stroke={logoColor} />;
