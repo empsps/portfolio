@@ -1,7 +1,16 @@
 import './Navbar.scss';
+import { NavbarItem } from './NavbarItem';
 
 export const Navbar = () => {
   return (
-    <div>Navbar</div>
-  )
-}
+    <div className='navbar'>
+      <span className='title'>JUAN BARROS</span>
+      <div className='items'>
+        <NavbarItem text='Teste botao' color='purple' />
+        <NavbarItem text='Teste botao' color='orange' />
+        <NavbarItem text='Teste botao' color='purple' />
+        <NavbarItem text='Teste botao' color='orange' />
+      </div>
+    </div>
+  );
+};

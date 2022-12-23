@@ -1,0 +1,43 @@
+@use '../../css/variables';
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0rem 1rem 0rem 5rem;
+
+  height: 80px;
+
+  .title {
+    font-weight: 700;
+    font-size: 30px;
+  }
+
+  .items {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+  }
+}
+
+.item {
+  height: 44px;
+  width: 124px;
+  border: none;
+  padding: auto;
+  border-radius: 1.5rem;
+
+  
+
+  &.item-purple {
+    background-color: variables.$purple;
+    color: #ebe8d9;
+  }
+
+  &.item-orange {
+    background-color: variables.$orange;
+    color: #151516;
+  }
+}
