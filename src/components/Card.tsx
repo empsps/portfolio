@@ -1,16 +1,16 @@
 import { ReactNode } from 'react';
-import './card.scss';
+import './Card.scss';
 
 type CardProps = {
   text: string;
-  image: ReactNode;
+  logo: ReactNode;
   color: 'purple' | 'orange';
 };
 
-export const Card = ({ text, image, color }: CardProps) => {
+export const Card = ({ text, logo, color }: CardProps) => {
   return (
     <div className={`card card-${color}`}>
-      <div>{image}</div>
+      <div className='logo'>{logo}</div>
       <span>{text}</span>
     </div>
   );

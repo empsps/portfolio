@@ -1,0 +1,29 @@
+@use '../css/variables';
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  height: 200px;
+  width: 170px;
+
+  border-radius: 1.5rem;
+}
+
+.card-purple {
+  border: 2px solid variables.$purple;
+}
+
+.card-orange {
+  border: 2px solid variables.$orange;
+}
+
+.logo {
+  margin-bottom: 20px;
+
+  & > svg {
+    width: 90px;
+  }
+}
