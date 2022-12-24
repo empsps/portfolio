@@ -6,9 +6,9 @@ export const Navbar = () => {
     <div className='navbar'>
       <span className='title'>JUAN BARROS</span>
       <div className='items'>
-        <NavbarItem text='Teste botao' color='purple' />
-        <NavbarItem text='Teste botao' color='purple' />
-        <NavbarItem text='Teste botao' color='purple' />
+        <NavbarItem text='Links' color='purple' />
+        <NavbarItem text='Meus projetos' color='purple' />
+        <NavbarItem text='Minha stack' color='purple' />
         <NavbarItem shine={true} text='Contato' color='orange' />
       </div>
     </div>
