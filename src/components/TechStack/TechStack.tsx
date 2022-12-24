@@ -25,6 +25,31 @@ export const TechStack = () => {
         logo={<Logo color='orange' logo='javascript' />}
         color='orange'
       />
+      <Card
+        text='Git'
+        logo={<Logo color='purple' logo='git' />}
+        color='purple'
+      />
+      <Card
+        text='Express.js'
+        logo={<Logo color='orange' logo='express' />}
+        color='orange'
+      />
+      <Card
+        text='Sass'
+        logo={<Logo color='purple' logo='sass' />}
+        color='purple'
+      />
+      <Card
+        text='Tailwind CSS'
+        logo={<Logo color='orange' logo='tailwind' />}
+        color='orange'
+      />
+      <Card
+        text='Spring'
+        logo={<Logo color='purple' logo='spring' />}
+        color='purple'
+      />
     </div>
   );
 };
