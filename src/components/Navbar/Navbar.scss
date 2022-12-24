@@ -62,7 +62,9 @@
     background-color: variables.$orange;
     color: variables.$white;
     font-weight: 700;
+  }
 
+  &.shine {
     .light {
       position: relative;
       width: 50px;

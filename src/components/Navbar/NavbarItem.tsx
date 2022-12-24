@@ -9,9 +9,9 @@ type NavbarItemProps = {
 export const NavbarItem = ({ text, color, shine }: NavbarItemProps) => {
   return (
     <div className='item-container'>
-      <button className={`item item-${color}`}>
+      <button className={`item item-${color} ${shine ? 'shine' : ''}`}>
         {text}
-        <div className='light' />
+        {shine ? <div className='light' /> : null}
       </button>
     </div>
   );
