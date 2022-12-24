@@ -22,14 +22,13 @@ body {
   border-radius: 1.5rem;
 
   font-weight: 500;
+  color: variables.$white;
 
   &.item-purple {
     background-color: variables.$purple;
-    color: variables.$white;
   }
 
   &.item-orange {
     background-color: variables.$orange;
-    color: variables.$text-3;
   }
 }
