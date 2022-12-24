@@ -34,3 +34,8 @@ Buildar e iniciar a aplicação
   yarn build && yarn preview
 ```
 
+Abrir o site no navegador 
+```
+http:localhost:4173/
+```
+
