@@ -15,6 +15,16 @@ export const TechStack = () => {
         logo={<Logo color='orange' logo='nodejs' />}
         color='orange'
       />
+      <Card
+        text='TypeScript'
+        logo={<Logo color='purple' logo='typescript' />}
+        color='purple'
+      />
+      <Card
+        text='Javascript'
+        logo={<Logo color='orange' logo='javascript' />}
+        color='orange'
+      />
     </div>
   );
 };
