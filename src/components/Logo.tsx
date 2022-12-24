@@ -1,5 +1,5 @@
 type Logo = 'react' | 'typescript' | 'nodejs' | 'javascript';
-import { ReactComponent as React } from '../assets/react.svg';
+import { ReactComponent as React } from '../assets/react-3.svg';
 import { ReactComponent as Nodejs } from '../assets/nodejs.svg';
 import { ReactComponent as TypeScript } from '../assets/typescript.svg';
 import { ReactComponent as Javascript } from '../assets/javascript.svg';
