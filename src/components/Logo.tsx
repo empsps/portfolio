@@ -1,12 +1,12 @@
-import { ReactComponent as React } from '../assets/react.svg';
-import { ReactComponent as Nodejs } from '../assets/nodejs.svg';
-import { ReactComponent as TypeScript } from '../assets/typescript.svg';
 import { ReactComponent as Javascript } from '../assets/javascript.svg';
-import { ReactComponent as Git } from '../assets/git.svg';
-import { ReactComponent as Express } from '../assets/express.svg';
-import { ReactComponent as Spring } from '../assets/spring.svg';
+import { ReactComponent as TypeScript } from '../assets/typescript.svg';
 import { ReactComponent as Tailwind } from '../assets/tailwind.svg';
+import { ReactComponent as Express } from '../assets/express.svg';
+import { ReactComponent as Nodejs } from '../assets/nodejs.svg';
+import { ReactComponent as Spring } from '../assets/spring.svg';
+import { ReactComponent as React } from '../assets/react.svg';
 import { ReactComponent as Sass } from '../assets/sass-1.svg';
+import { ReactComponent as Git } from '../assets/git.svg';
 
 type Logo =
   | 'react'
