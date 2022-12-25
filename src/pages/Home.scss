@@ -21,3 +21,20 @@ main {
   justify-content: center;
   background-color: variables.$black;
 }
+
+@media screen and (max-width: 1080px) {
+  .root {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    height: 100vh;
+  }
+
+  aside {
+    display: none;
+  }
+
+  main {
+    height: 100vh;
+  }
+}
